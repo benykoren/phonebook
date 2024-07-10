@@ -40,9 +40,14 @@ This file can be used to check the server with the requests package in Python.
 
 Base URL
 The base URL for all endpoints is http://localhost:5000.
-API's
-GET /contacts get list of all contacts.
-GET /contacts/<id> get details of a specific contact by ID.
-POST /contacts Adds a new contact.
-PUT /contacts/<id> Updates an existing contact by ID.
-DELETE /contacts/<id> Deletes a specific contact by ID.
+## APIs
+
+- **GET /contacts**: Get a list of all contacts.
+
+- **GET /contacts/<id>**: Get details of a specific contact by ID.
+
+- **POST /contacts**: Adds a new contact.
+
+- **PUT /contacts/<id>**: Updates an existing contact by ID.
+
+- **DELETE /contacts/<id>**: Deletes a specific contact by ID.
