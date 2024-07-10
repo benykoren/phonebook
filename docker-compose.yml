@@ -5,6 +5,9 @@ services:
     build: .
     ports:
       - "5000:5000"
+    volumes:
+      - .:/app
     environment:
-      FLASK_ENV: development
-      FLASK_APP: app/app.py
+      - FLASK_ENV=development
+      - DATABASE_URL=sqlite:///phonebook.db
+    command: python3 main.py
